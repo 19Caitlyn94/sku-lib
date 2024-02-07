@@ -1,0 +1,25 @@
+{
+  "name": "sku-lib",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/library.tsx",
+  "scripts": {
+    "start": "sku start",
+    "test": "sku test",
+    "build": "sku build",
+    "serve": "sku serve",
+    "lint": "sku lint",
+    "format": "sku format"
+  },
+  "dependencies": {
+    "braid-design-system": "32.16.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.54",
+    "@types/react-dom": "^18.2.18",
+    "@vanilla-extract/css": "^1.14.1",
+    "sku": "^12.4.10"
+  }
+}
